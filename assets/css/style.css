@@ -1,0 +1,70 @@
+/* ESTILOS DE COLUMNA IZQUIERDA DE PERFILES*/
+
+body {
+    background-color: #DFDFDF;
+}
+
+.linea-fondo {
+    height: 100px;
+    background-color: #009488;
+    position: relative;
+}
+
+.contenedor-chat {
+    width: 80%;
+}
+
+.avatar_perfil {
+    width: 100%;
+}
+
+.perfil-principal {
+    margin-top: 50px;
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.container-amigos {
+    background-color: white;
+    padding: 20px;
+}
+
+.conversacion {
+    margin-left: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.conversacion i, .perfil-principal i {
+    font-size: 20px;
+    padding: 10px;
+    color: #464141;
+}
+
+/* ESTILOS DE COLUMNA DERECHA CONVERSACIONES*/
+
+.chat-panel {
+    background-image: url("../image/chat-panel-bg.png");
+    width: 100%;
+}
+
+.verde {
+    background-color: #DCF6C4;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+
+.blanco {
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
+
+div.enviar input { /*¿PORQUE NO ME FUNCIONA ACA Y EN LA CONSOLA SI :(, TAMBN PPROBE CON .enviar input :(?*/
+    width: 60%;
+    background-color: white;
+}
+
